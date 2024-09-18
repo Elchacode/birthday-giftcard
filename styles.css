@@ -1,0 +1,143 @@
+body{
+    text-align: center;
+    font-family: Happy Monkey;
+    font-style: normal;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px  1px black;
+}
+
+#bday{
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px ;
+    
+}
+
+#bdate{
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+    
+}
+
+#pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #EFB0C9;
+    
+
+}
+
+.gift{
+    margin-top: 50px;
+}
+
+#mood{
+    margin-top: 10px;
+
+}
+
+#check{
+    margin-top: 3px;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#open{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 5%;
+    height: 400px;
+    background-image: url(images/giftcover.jpg);
+    background-size: cover;
+    margin: 0% auto;
+}
+
+#open:hover{
+    background-image: url(images/happy.webp);
+    width: 400px;
+    height: 400px;
+}
+
+#room{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 5%;
+    height: 400px;
+    background-image: url(images/giftcover.jpg);
+    background-size: cover;
+    margin: 0% auto;
+}
+
+#room:hover{
+    background-image: url(images/hot.webp);
+}
+
+
+#describe{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 5%;
+    height: 400px;
+    background-image: url(images/giftcover.jpg);
+    background-size: cover;
+    margin: 0% auto;
+}
+
+
+#describe:hover{
+    background-image: url(images/genius.webp);
+}
+
+#badass{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 5%;
+    height: 400px;
+    background-image: url(images/giftcover.jpg);
+    background-size: cover;
+    margin: 0% auto;
+}
+
+#badass:hover{
+    background-image: url(images/badass.webp);
+}
+
+.want{
+    color: white;
+    font-style: italic;
+    
+   
+}
+
+#me{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 5%;
+    height: 200px;
+    background-image: url(images/giftcover.jpg);
+    background-size: cover;
+    margin: 40px auto 20px;
+
+}
+
+#me:hover{
+    background-image: url(images/cheers.webp);
+}
+
+a{
+    color: white;
+}
